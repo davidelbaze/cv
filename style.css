@@ -386,15 +386,21 @@ html {
     ul.listleft li.detail {
       padding-left:8px;
       padding-bottom:10px;
-      font-style:italic;
+      /*font-style:italic;*/
     }
 
     ul.listright li.detail {
       padding-right:8px;
-      font-style:italic;
+      /*font-style:italic;*/
       padding-bottom:10px;
     }
 
+    ul.listright li.titre {
+      font-weight: bold;
+    }
+    ul.listleft li.titre {
+      font-weight: bold;
+    }
 
     ul.listleft li.titre:before {
       content:"\2022 \  ";
