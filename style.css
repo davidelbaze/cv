@@ -373,20 +373,34 @@ html {
       color: white;
     }
 
+
+
     ul.listright li{
         text-align: right;
     }
-
 
     ul.listleft, ul.listright{
       list-style-type: none
     }
 
-    ul.listleft li:before {
+    ul.listleft li.detail {
+      padding-left:8px;
+      padding-bottom:10px;
+      font-style:italic;
+    }
+
+    ul.listright li.detail {
+      padding-right:8px;
+      font-style:italic;
+      padding-bottom:10px;
+    }
+
+
+    ul.listleft li.titre:before {
       content:"\2022 \  ";
     }
 
-    ul.listright li:after {
+    ul.listright li.titre:after {
       content:" \2022";
     }
 
