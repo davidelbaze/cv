@@ -163,7 +163,8 @@ html {
       width: 410px;
       margin: 50px auto;
     }
-    .credit {
+
+    .credit,p {
       /*text-align: center;*/
       color: rgba(0,0,0,0.5);
       padding: 30px;
@@ -171,6 +172,11 @@ html {
       margin-left:258px;
       /*width: 410px;*/
       /*clear: both;*/
+    }
+    .viewing-page-3 p {
+      margin-left:10px;
+      padding:0;
+      color:white;
     }
     .credit a {
       color: rgba(0,0,0,0.85);
