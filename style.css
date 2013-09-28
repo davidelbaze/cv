@@ -396,7 +396,10 @@ html {
       padding-left:8px;
       padding-bottom:10px;
     }
-
+    abbr, b {
+      display:inline-block;
+      border-bottom:1px dashed white;
+    }
     ul.listright li.titre {
       font-weight: bold;
     }
@@ -423,4 +426,19 @@ html {
       vertical-align: middle;
       padding-top: 9px;
       padding-right: 10px;
+    }
+
+    #splash {
+      display:none;
+    }
+    @media screen and (max-width: 1063px){
+      #splash {
+        display: block;
+      }  
+    }
+
+    @media screen and (max-height: 570px) {
+      #splash {
+        display: block;
+      }  
     }

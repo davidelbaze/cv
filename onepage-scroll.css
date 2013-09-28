@@ -52,17 +52,29 @@ body, .onepage-wrapper, html {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: rgba(0,0,0,0.85);
+  background: white;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+  -webkit-transition: background 300ms ease-in-out;
+  -moz-transition: background 300ms ease-in-out;
+  -o-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+.viewing-page-1 .onepage-pagination li a:before {
+  background: black;
 }
 
 .onepage-pagination li a.active:before{
   width: 10px;
   height: 10px;
   background: none;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-top: -4px;
   left: 8px;
+}
+
+.viewing-page-1 .onepage-pagination li a:before {
+  border: 1px solid black;
 }
