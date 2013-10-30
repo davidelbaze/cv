@@ -470,3 +470,7 @@ html {
     blockquote {
       border-left-color:rgb(190, 177, 160);
     }
+
+    .visible-phone h1 {
+      font-size:30px;
+    }
