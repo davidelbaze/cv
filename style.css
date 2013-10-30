@@ -351,6 +351,10 @@ html {
       padding-bottom:10px;
     }
 
+    ul {
+      padding:0;
+      padding-left:10px;
+    }
    
     abbr, b {
       display:inline-block;
