@@ -473,7 +473,11 @@ html {
 
     .visible-phone h1 {
       font-size:40px !important;
+      text-align:center !important;
     }
     .visible-phone h2 {
-      font-size:30px !important;
+      text-align:center!important;
+      font-size:20px !important;
+      padding:0;
+      line-height: initial;
     }
