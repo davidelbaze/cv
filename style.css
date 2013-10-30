@@ -471,11 +471,11 @@ html {
       border-left-color:rgb(190, 177, 160);
     }
 
-    .visible-phone h1 {
+    .visible-phone h1, .visible-big-phone h1 {
       font-size:40px !important;
       text-align:center !important;
     }
-    .visible-phone h2 {
+    .visible-phone h2, .visible-big-phone h2 {
       text-align:center!important;
       font-size:20px !important;
       padding:0;
