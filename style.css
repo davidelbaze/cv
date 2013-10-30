@@ -474,3 +474,7 @@ html {
     .main section.page1 h1, .main section.page1 h2 {
       color:white;
     }
+
+    h1 span {
+      letter-spacing: -1px;
+    }
