@@ -65,7 +65,15 @@
   display: inherit !important;
 }
 
-@media (min-width: 500px) and (max-width: 979px) {
+.visible-big-phone {
+  display: inherit !important;
+}
+
+.hidden-big-phone {
+  display: none !important;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -80,6 +88,27 @@
   }
 }
 
+@media (min-width: 500px) and (max-width :767px) {
+  .visible-desktop {
+    display: none !important;
+  }
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-phone { 
+    display: none !important;
+  }
+  .visible-tablet {
+    display: none !important;
+  }
+  .hidden-big-phone {
+    display:none !important;
+  }
+  .visible-big-phone {
+    display: inherit !important;
+  }
+}
+
 @media (max-width: 499px) {
   .hidden-desktop {
     display: inherit !important;
@@ -91,6 +120,9 @@
     display: inherit !important;
   }
   .hidden-phone {
+    display: none !important;
+  }
+  .visible-big-phone {
     display: none !important;
   }
 }
