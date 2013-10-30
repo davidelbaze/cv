@@ -472,5 +472,8 @@ html {
     }
 
     .visible-phone h1 {
+      font-size:40px !important;
+    }
+    .visible-phone h2 {
       font-size:30px !important;
     }
