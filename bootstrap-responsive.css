@@ -95,7 +95,9 @@
   .hidden-desktop {
     display: inherit !important;
   }
-  
+  .visible-phone { 
+    display: none !important;
+  }
   .visible-tablet {
     display: none !important;
   }
